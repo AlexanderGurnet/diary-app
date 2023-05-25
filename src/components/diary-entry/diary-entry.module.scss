@@ -1,0 +1,50 @@
+.timeText {
+  font-size: 0.9rem;
+}
+
+.timeTextContainer {
+  padding: 4px 12px;
+  background-color: #2a9d8f;
+  border-radius: 12px;
+}
+
+.button.button {
+  color: #fff;
+  font-size: 1.9rem;
+  border: 1px solid #fff;
+  padding: 12px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: #264653;
+    border: 1px solid #264653;
+  }
+}
+
+.diaryEntry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #2a9d8f;
+  width: 80%;
+
+  &:hover {
+    background-color: #ffffff1f;
+  }
+}
+
+.leftBlock {
+  display: flex;
+  gap: 16px;
+}
+.rightBlock {
+  display: flex;
+  gap: 16px;
+}

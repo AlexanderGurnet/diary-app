@@ -1,0 +1,46 @@
+.diaryEntryList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 0 96px 96px;
+}
+
+.createEntryBlock {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: fit-content;
+  padding: 16px 0 0 0;
+  border-radius: 12px;
+}
+
+.button.button {
+  color: #fff;
+  font-size: 1.9rem;
+  border: 1px solid #fff;
+  padding: 4px 12px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+
+  &:not(:disabled):hover {
+    color: #e9c46a;
+    border: 1px solid #e9c46a;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.4;
+  }
+}
+
+.emptyMessageBlock {
+  border-radius: 12px;
+  padding: 36px;
+  font-size: 2rem;
+  border: 1px solid #fff;
+}

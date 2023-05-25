@@ -1,0 +1,36 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #264653;
+  width: 100%;
+  padding: 16px;
+}
+
+.button {
+  color: #e9c46a;
+  font-size: 1.3rem;
+  border: 1px solid #e9c46a;
+  padding: 12px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: #f4a261;
+    border: 1px solid #f4a261;
+  }
+}
+
+.btnContainer {
+  display: flex;
+  gap: 12px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  height: fit-content;
+  color: #fff;
+}
