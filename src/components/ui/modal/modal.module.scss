@@ -1,0 +1,39 @@
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #e9c46a;
+  position: absolute;
+  cursor: auto;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  padding: 20px;
+  color: #000;
+  width: 400px;
+
+  border-radius: 12px;
+}
+
+.title {
+  color: #0b1615;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 24px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background: url(close.svg);
+  background-position: center;
+  background-color: #0b1615;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #0b1615cb;
+  }
+}
