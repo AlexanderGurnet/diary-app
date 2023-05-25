@@ -1,0 +1,29 @@
+.loginButton {
+  color: #264653;
+  font-size: 1.3rem;
+  border: 1px solid #264653;
+  padding: 12px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: #122127;
+    border: 1px solid #122127;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.error {
+  color: rgb(255, 75, 75);
+  text-align: center;
+}
+
+.loading {
+  color: #122127;
+  text-align: center;
+}
